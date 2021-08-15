@@ -1,0 +1,101 @@
+.hidden {
+    display: none;
+}
+
+@keyframes fadein {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+@keyframes fadeout {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+    
+}
+
+.bg-image{
+    background-size: cover;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: fadein 2s linear;
+}
+
+
+body {
+    text-align: center;
+    margin-top: 17%;
+    color: azure;
+    margin-bottom: 5%;
+}
+
+#clock{
+    font-size: 100pt;
+    margin-bottom: 0pt;
+    margin-top: -10pc;
+}
+
+#greeting{
+    font-size: 30pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#auddjs{
+    font-size: 10pt;
+}
+#LogOut{
+    margin-left: 1000pt;
+}
+#input-name{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 1pc;
+}
+
+#weather-info{
+    width:300px;
+    position:absolute;
+    right: 10px;
+    top: 10px;
+    padding: 10px;
+    font-size: 15pt;    
+    text-align: right;
+    margin-bottom: 52pt;
+}
+#weather{
+    font-weight: bold;
+    animation: fadein 2s infinite linear;
+    
+}
+#input-todo{
+    width: 300px;
+    height: 40px;
+    text-align: center; 
+    border-radius: 2pc;
+    border: none;
+}
+ul{
+    list-style: none;
+}
+button{
+    margin : 3px;
+    border-radius: 10pc;
+    background-color: azure;
+}
+#HowToLogOut{
+    font-size: 20pt;
+}
